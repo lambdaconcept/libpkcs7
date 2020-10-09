@@ -1,4 +1,4 @@
 build
 include
 src
-libasn.a
+libpkcs7.a

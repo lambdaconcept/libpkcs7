@@ -25,6 +25,8 @@ Ecdsa-Sig-Value  ::=  SEQUENCE  {
            r     INTEGER,
            s     INTEGER  }
 
+Sha256-Digest-Value ::= SET OF OCTET STRING
+
 ReceiptAttribute ::= SEQUENCE {
     type    INTEGER,
     version INTEGER,
